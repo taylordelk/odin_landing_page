@@ -1,0 +1,158 @@
+*{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.biggestbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: stretch;
+    flex: 1 1 auto;
+}
+
+.header{
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px 10px 150px;
+    
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    margin: 6px;
+}
+
+.logo{ 
+    font-size: 22px;
+}
+    
+
+}
+
+.footer{
+    justify-self: flex-end;
+    flex: 0 0 auto;
+    background-color: #1F2937;
+}
+
+.box1{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px 10px 150px;
+    gap: 10px;
+}
+
+.box2{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px 10px 150px;
+    flex-direction: column;
+}
+
+.box3{
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #a1b0c4;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 150px 10px 150px;
+}
+
+.subject{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.smallerbox{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 400px;
+    gap: 10px;
+}
+
+.placeholder{
+    background-color: #a1b0c4;
+    color: black;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    min-width: 300px;
+    min-width: 400px;
+}
+
+#signup1{
+    background-color: #3882F6;
+    color: #e5e7eb;
+}
+
+.subtext{
+    color: white;
+    flex: 0 0 auto;
+
+}
+
+.infoheader{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cardholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 auto;
+    gap: 25px;
+}
+
+.emptyborder{
+    border-color: #3882F6;
+    border-radius: 20%;
+    border-width: 4px;
+    border-style:solid;
+    height: 100px;
+    width: 100px;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+}
+.contentbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    width: 100px;
+    gap: 10px;
+    text-align: center;
+
+}
