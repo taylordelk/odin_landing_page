@@ -39,12 +39,15 @@ li{
 }
     
 
-}
 
 .footer{
-    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
     flex: 0 0 auto;
     background-color: #1F2937;
+    color:#E5E7EB;
+    align-content: center;
+    padding: 30px;
 }
 
 .box1{
@@ -53,7 +56,7 @@ li{
     background-color: #1F2937;
     justify-content: center;
     align-items: center;
-    padding: 10px 150px 10px 150px;
+    padding: 20px 150px 100px 150px;
     gap: 10px;
 }
 
@@ -63,17 +66,20 @@ li{
     background-color: #f9faf8;
     justify-content: center;
     align-items: center;
-    padding: 10px 150px 10px 150px;
+    padding: 100px 150px 100px 150px;
     flex-direction: column;
+    gap: 40px;
 }
 
 .box3{
     display: flex;
     flex: 1 1 auto;
-    background-color: #a1b0c4;
+    background-color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    padding: 10px 150px 10px 150px;
+    flex-direction: column;
+    min-width: 700px;
+    padding: 100px 150px 100px 150px;
 }
 
 .subject{
@@ -105,15 +111,18 @@ li{
     min-width: 400px;
 }
 
-#signup1{
+.button1{
     background-color: #3882F6;
-    color: #e5e7eb;
+    color: white;
+    align-self: flex-start;
+    border-radius: 10%;
+    box-shadow: none;
+    padding: 5px 15px;
 }
 
 .subtext{
     color: white;
-    flex: 0 0 auto;
-
+    flex: 1 1 auto;
 }
 
 .infoheader{
@@ -155,4 +164,45 @@ li{
     gap: 10px;
     text-align: center;
 
+}
+
+.quote-text{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+}
+
+.quoteattribute{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+    font-weight: bolder;
+}
+
+.bluebox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 1%;
+    padding: 50px;
+    min-width: 800px;
+    gap: 600px;
+    align-items: center;
+}
+
+.call{
+    font-size: 36px;
+    font-weight: bolder;
+    color: white;
+    flex: 1 1 0;
+    
+}
+
+#button2{
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    align-self: center;
 }
